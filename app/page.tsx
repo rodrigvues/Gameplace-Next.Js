@@ -1,18 +1,12 @@
 import Layout from './layout';
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import Footer from './components/Footer';
+import HeroSection from '@/components/HeroSection';
 
 const Home = () => {
   return (
-    <Layout>
-      <Navbar />
-      <main>
-        <HeroSection />
+  <main>
+    <HeroSection />
         {/* Aqui você pode adicionar o grid de imagens dos jogos populares */}
-      </main>
-      <Footer />
-    </Layout>
+  </main>
   );
 };
 
